@@ -1,4 +1,7 @@
-puts "What's your name"
-my_name = Aswi.Patel
+require 'greeter'
 
-puts "Hello, #{my_name}!"
+puts "What's your name"
+my_name = gets.strip
+
+greeter = Greeter.new(my_name)
+puts greeter.greet
