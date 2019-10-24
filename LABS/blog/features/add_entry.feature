@@ -12,4 +12,3 @@ Scenario: As a blogger I want to be able to navigate from the homepage to the ne
   Then I should be on the "New article" page
   And I should see the "Title" field
   And I should see the "Text" field
- 
